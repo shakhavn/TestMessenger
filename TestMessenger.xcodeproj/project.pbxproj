@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B21E2CC11F155A88008A731F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B21E2CC01F155A88008A731F /* main.m */; };
+		B21E2CC41F155A88008A731F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B21E2CC31F155A88008A731F /* AppDelegate.m */; };
+		B21E2CCA1F155A88008A731F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B21E2CC81F155A88008A731F /* Main.storyboard */; };
+		B21E2CCF1F155A88008A731F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B21E2CCE1F155A88008A731F /* Assets.xcassets */; };
+		B21E2CD21F155A88008A731F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B21E2CD01F155A88008A731F /* LaunchScreen.storyboard */; };
+		B21E2CDF1F155B4C008A731F /* CoreDataClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B21E2CDC1F155B4C008A731F /* CoreDataClient.m */; };
+		B21E2CE01F155B4C008A731F /* TMSMessagesService.m in Sources */ = {isa = PBXBuildFile; fileRef = B21E2CDE1F155B4C008A731F /* TMSMessagesService.m */; };
+		B21E2CE31F155C0C008A731F /* TestMessenger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B21E2CE11F155C0C008A731F /* TestMessenger.xcdatamodeld */; };
+		B21E2CE91F155E1B008A731F /* TMSParticipantsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B21E2CE81F155E1B008A731F /* TMSParticipantsViewController.m */; };
+		B21E2CEC1F155E5A008A731F /* TMSChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B21E2CEB1F155E5A008A731F /* TMSChatViewController.m */; };
+		B21E2CEF1F155E7B008A731F /* TMSConversationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B21E2CEE1F155E7B008A731F /* TMSConversationsViewController.m */; };
+		B21E2D061F15729A008A731F /* TMSTextMessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B21E2D051F15729A008A731F /* TMSTextMessageTableViewCell.m */; };
+		B21E2D091F1572B5008A731F /* TMSImageMessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B21E2D081F1572B5008A731F /* TMSImageMessageTableViewCell.m */; };
+		B21E2D0C1F1572D3008A731F /* TMSLocationMessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B21E2D0B1F1572D3008A731F /* TMSLocationMessageTableViewCell.m */; };
+		B21E2D0F1F164EB1008A731F /* TMSUINavigationConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = B21E2D0E1F164EB1008A731F /* TMSUINavigationConstants.m */; };
+		B21E2D121F17DBA7008A731F /* TMSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B21E2D111F17DBA7008A731F /* TMSBaseViewController.m */; };
+		B2EDDAF31F180B2400264401 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EDDAF21F180B2400264401 /* CoreLocation.framework */; };
+		B2EDDAF51F180B2A00264401 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EDDAF41F180B2A00264401 /* MapKit.framework */; };
+		B2EDDB331F18B22100264401 /* TMSMessagesQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EDDB321F18B22100264401 /* TMSMessagesQueue.m */; };
+		B2EDDB361F18B4FE00264401 /* TMSBotUser.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EDDB351F18B4FE00264401 /* TMSBotUser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B21E2CBC1F155A88008A731F /* TestMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B21E2CC01F155A88008A731F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B21E2CC21F155A88008A731F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B21E2CC31F155A88008A731F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B21E2CC91F155A88008A731F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B21E2CCE1F155A88008A731F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B21E2CD11F155A88008A731F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B21E2CD31F155A88008A731F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B21E2CDB1F155B4C008A731F /* CoreDataClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataClient.h; sourceTree = "<group>"; };
+		B21E2CDC1F155B4C008A731F /* CoreDataClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataClient.m; sourceTree = "<group>"; };
+		B21E2CDD1F155B4C008A731F /* TMSMessagesService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMSMessagesService.h; sourceTree = "<group>"; };
+		B21E2CDE1F155B4C008A731F /* TMSMessagesService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMSMessagesService.m; sourceTree = "<group>"; };
+		B21E2CE21F155C0C008A731F /* TestMessenger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestMessenger.xcdatamodel; sourceTree = "<group>"; };
+		B21E2CE71F155E1B008A731F /* TMSParticipantsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMSParticipantsViewController.h; sourceTree = "<group>"; };
+		B21E2CE81F155E1B008A731F /* TMSParticipantsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMSParticipantsViewController.m; sourceTree = "<group>"; };
+		B21E2CEA1F155E5A008A731F /* TMSChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMSChatViewController.h; sourceTree = "<group>"; };
+		B21E2CEB1F155E5A008A731F /* TMSChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMSChatViewController.m; sourceTree = "<group>"; };
+		B21E2CED1F155E7B008A731F /* TMSConversationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMSConversationsViewController.h; sourceTree = "<group>"; };
+		B21E2CEE1F155E7B008A731F /* TMSConversationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMSConversationsViewController.m; sourceTree = "<group>"; };
+		B21E2D041F15729A008A731F /* TMSTextMessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMSTextMessageTableViewCell.h; sourceTree = "<group>"; };
+		B21E2D051F15729A008A731F /* TMSTextMessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMSTextMessageTableViewCell.m; sourceTree = "<group>"; };
+		B21E2D071F1572B5008A731F /* TMSImageMessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMSImageMessageTableViewCell.h; sourceTree = "<group>"; };
+		B21E2D081F1572B5008A731F /* TMSImageMessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMSImageMessageTableViewCell.m; sourceTree = "<group>"; };
+		B21E2D0A1F1572D3008A731F /* TMSLocationMessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMSLocationMessageTableViewCell.h; sourceTree = "<group>"; };
+		B21E2D0B1F1572D3008A731F /* TMSLocationMessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMSLocationMessageTableViewCell.m; sourceTree = "<group>"; };
+		B21E2D0D1F164EB1008A731F /* TMSUINavigationConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMSUINavigationConstants.h; sourceTree = "<group>"; };
+		B21E2D0E1F164EB1008A731F /* TMSUINavigationConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMSUINavigationConstants.m; sourceTree = "<group>"; };
+		B21E2D101F17DBA7008A731F /* TMSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMSBaseViewController.h; sourceTree = "<group>"; };
+		B21E2D111F17DBA7008A731F /* TMSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMSBaseViewController.m; sourceTree = "<group>"; };
+		B2EDDAF21F180B2400264401 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B2EDDAF41F180B2A00264401 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B2EDDB1E1F18AF0C00264401 /* Message+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Message+CoreDataClass.h"; sourceTree = "<group>"; };
+		B2EDDB1F1F18AF0C00264401 /* Message+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Message+CoreDataClass.m"; sourceTree = "<group>"; };
+		B2EDDB201F18AF0C00264401 /* Message+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Message+CoreDataProperties.h"; sourceTree = "<group>"; };
+		B2EDDB211F18AF0C00264401 /* Message+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Message+CoreDataProperties.m"; sourceTree = "<group>"; };
+		B2EDDB221F18AF0C00264401 /* Participant+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Participant+CoreDataClass.h"; sourceTree = "<group>"; };
+		B2EDDB231F18AF0C00264401 /* Participant+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Participant+CoreDataClass.m"; sourceTree = "<group>"; };
+		B2EDDB241F18AF0C00264401 /* Participant+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Participant+CoreDataProperties.h"; sourceTree = "<group>"; };
+		B2EDDB251F18AF0C00264401 /* Participant+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Participant+CoreDataProperties.m"; sourceTree = "<group>"; };
+		B2EDDB261F18AF0C00264401 /* Conversation+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Conversation+CoreDataClass.h"; sourceTree = "<group>"; };
+		B2EDDB271F18AF0C00264401 /* Conversation+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Conversation+CoreDataClass.m"; sourceTree = "<group>"; };
+		B2EDDB281F18AF0C00264401 /* Conversation+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Conversation+CoreDataProperties.h"; sourceTree = "<group>"; };
+		B2EDDB291F18AF0C00264401 /* Conversation+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Conversation+CoreDataProperties.m"; sourceTree = "<group>"; };
+		B2EDDB311F18B22100264401 /* TMSMessagesQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMSMessagesQueue.h; sourceTree = "<group>"; };
+		B2EDDB321F18B22100264401 /* TMSMessagesQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMSMessagesQueue.m; sourceTree = "<group>"; };
+		B2EDDB341F18B4FE00264401 /* TMSBotUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMSBotUser.h; sourceTree = "<group>"; };
+		B2EDDB351F18B4FE00264401 /* TMSBotUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMSBotUser.m; sourceTree = "<group>"; };
+		B2EDDB5A1F1A1BE600264401 /* TMSMessageCellSubtitlable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMSMessageCellSubtitlable.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B21E2CB91F155A88008A731F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EDDAF51F180B2A00264401 /* MapKit.framework in Frameworks */,
+				B2EDDAF31F180B2400264401 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B21E2CB31F155A88008A731F = {
+			isa = PBXGroup;
+			children = (
+				B21E2CBE1F155A88008A731F /* TestMessenger */,
+				B21E2CBD1F155A88008A731F /* Products */,
+				B2EDDAF11F180B2400264401 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B21E2CBD1F155A88008A731F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B21E2CBC1F155A88008A731F /* TestMessenger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B21E2CBE1F155A88008A731F /* TestMessenger */ = {
+			isa = PBXGroup;
+			children = (
+				B21E2CC21F155A88008A731F /* AppDelegate.h */,
+				B21E2CC31F155A88008A731F /* AppDelegate.m */,
+				B2EDDB0B1F18AEC200264401 /* Model */,
+				B21E2CD91F155B4C008A731F /* Services */,
+				B21E2CE41F155D7F008A731F /* UI */,
+				B21E2CCE1F155A88008A731F /* Assets.xcassets */,
+				B21E2CD31F155A88008A731F /* Info.plist */,
+				B21E2CBF1F155A88008A731F /* Supporting Files */,
+			);
+			path = TestMessenger;
+			sourceTree = "<group>";
+		};
+		B21E2CBF1F155A88008A731F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B21E2CC01F155A88008A731F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B21E2CD91F155B4C008A731F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B2EDDB301F18AFCD00264401 /* Communication */,
+				B21E2CDA1F155B4C008A731F /* DataStorage */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B21E2CDA1F155B4C008A731F /* DataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				B21E2CDB1F155B4C008A731F /* CoreDataClient.h */,
+				B21E2CDC1F155B4C008A731F /* CoreDataClient.m */,
+				B21E2CDD1F155B4C008A731F /* TMSMessagesService.h */,
+				B21E2CDE1F155B4C008A731F /* TMSMessagesService.m */,
+				B21E2CE11F155C0C008A731F /* TestMessenger.xcdatamodeld */,
+			);
+			path = DataStorage;
+			sourceTree = "<group>";
+		};
+		B21E2CE41F155D7F008A731F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B21E2D031F157170008A731F /* Views */,
+				B21E2CE61F155DDB008A731F /* Controllers */,
+				B21E2CE51F155DB0008A731F /* Storyboards */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B21E2CE51F155DB0008A731F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B21E2CD01F155A88008A731F /* LaunchScreen.storyboard */,
+				B21E2CC81F155A88008A731F /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		B21E2CE61F155DDB008A731F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B21E2D101F17DBA7008A731F /* TMSBaseViewController.h */,
+				B21E2D111F17DBA7008A731F /* TMSBaseViewController.m */,
+				B21E2CE71F155E1B008A731F /* TMSParticipantsViewController.h */,
+				B21E2CE81F155E1B008A731F /* TMSParticipantsViewController.m */,
+				B21E2CED1F155E7B008A731F /* TMSConversationsViewController.h */,
+				B21E2CEE1F155E7B008A731F /* TMSConversationsViewController.m */,
+				B21E2CEA1F155E5A008A731F /* TMSChatViewController.h */,
+				B21E2CEB1F155E5A008A731F /* TMSChatViewController.m */,
+				B21E2D0D1F164EB1008A731F /* TMSUINavigationConstants.h */,
+				B21E2D0E1F164EB1008A731F /* TMSUINavigationConstants.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B21E2D031F157170008A731F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B21E2D041F15729A008A731F /* TMSTextMessageTableViewCell.h */,
+				B21E2D051F15729A008A731F /* TMSTextMessageTableViewCell.m */,
+				B21E2D071F1572B5008A731F /* TMSImageMessageTableViewCell.h */,
+				B21E2D081F1572B5008A731F /* TMSImageMessageTableViewCell.m */,
+				B21E2D0A1F1572D3008A731F /* TMSLocationMessageTableViewCell.h */,
+				B21E2D0B1F1572D3008A731F /* TMSLocationMessageTableViewCell.m */,
+				B2EDDB5A1F1A1BE600264401 /* TMSMessageCellSubtitlable.h */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B2EDDAF11F180B2400264401 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2EDDAF41F180B2A00264401 /* MapKit.framework */,
+				B2EDDAF21F180B2400264401 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2EDDB0B1F18AEC200264401 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B2EDDB1E1F18AF0C00264401 /* Message+CoreDataClass.h */,
+				B2EDDB1F1F18AF0C00264401 /* Message+CoreDataClass.m */,
+				B2EDDB201F18AF0C00264401 /* Message+CoreDataProperties.h */,
+				B2EDDB211F18AF0C00264401 /* Message+CoreDataProperties.m */,
+				B2EDDB221F18AF0C00264401 /* Participant+CoreDataClass.h */,
+				B2EDDB231F18AF0C00264401 /* Participant+CoreDataClass.m */,
+				B2EDDB241F18AF0C00264401 /* Participant+CoreDataProperties.h */,
+				B2EDDB251F18AF0C00264401 /* Participant+CoreDataProperties.m */,
+				B2EDDB261F18AF0C00264401 /* Conversation+CoreDataClass.h */,
+				B2EDDB271F18AF0C00264401 /* Conversation+CoreDataClass.m */,
+				B2EDDB281F18AF0C00264401 /* Conversation+CoreDataProperties.h */,
+				B2EDDB291F18AF0C00264401 /* Conversation+CoreDataProperties.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B2EDDB301F18AFCD00264401 /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				B2EDDB311F18B22100264401 /* TMSMessagesQueue.h */,
+				B2EDDB321F18B22100264401 /* TMSMessagesQueue.m */,
+				B2EDDB341F18B4FE00264401 /* TMSBotUser.h */,
+				B2EDDB351F18B4FE00264401 /* TMSBotUser.m */,
+			);
+			path = Communication;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B21E2CBB1F155A88008A731F /* TestMessenger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B21E2CD61F155A88008A731F /* Build configuration list for PBXNativeTarget "TestMessenger" */;
+			buildPhases = (
+				B21E2CB81F155A88008A731F /* Sources */,
+				B21E2CB91F155A88008A731F /* Frameworks */,
+				B21E2CBA1F155A88008A731F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestMessenger;
+			productName = TestMessenger;
+			productReference = B21E2CBC1F155A88008A731F /* TestMessenger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B21E2CB41F155A88008A731F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = yuliashakhavnina;
+				TargetAttributes = {
+					B21E2CBB1F155A88008A731F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8DH3HFV62B;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B21E2CB71F155A88008A731F /* Build configuration list for PBXProject "TestMessenger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B21E2CB31F155A88008A731F;
+			productRefGroup = B21E2CBD1F155A88008A731F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B21E2CBB1F155A88008A731F /* TestMessenger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B21E2CBA1F155A88008A731F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B21E2CD21F155A88008A731F /* LaunchScreen.storyboard in Resources */,
+				B21E2CCF1F155A88008A731F /* Assets.xcassets in Resources */,
+				B21E2CCA1F155A88008A731F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B21E2CB81F155A88008A731F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EDDB361F18B4FE00264401 /* TMSBotUser.m in Sources */,
+				B21E2CC41F155A88008A731F /* AppDelegate.m in Sources */,
+				B21E2D061F15729A008A731F /* TMSTextMessageTableViewCell.m in Sources */,
+				B2EDDB331F18B22100264401 /* TMSMessagesQueue.m in Sources */,
+				B21E2CEF1F155E7B008A731F /* TMSConversationsViewController.m in Sources */,
+				B21E2D0C1F1572D3008A731F /* TMSLocationMessageTableViewCell.m in Sources */,
+				B21E2CE91F155E1B008A731F /* TMSParticipantsViewController.m in Sources */,
+				B21E2CEC1F155E5A008A731F /* TMSChatViewController.m in Sources */,
+				B21E2CC11F155A88008A731F /* main.m in Sources */,
+				B21E2D121F17DBA7008A731F /* TMSBaseViewController.m in Sources */,
+				B21E2D091F1572B5008A731F /* TMSImageMessageTableViewCell.m in Sources */,
+				B21E2D0F1F164EB1008A731F /* TMSUINavigationConstants.m in Sources */,
+				B21E2CDF1F155B4C008A731F /* CoreDataClient.m in Sources */,
+				B21E2CE01F155B4C008A731F /* TMSMessagesService.m in Sources */,
+				B21E2CE31F155C0C008A731F /* TestMessenger.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B21E2CC81F155A88008A731F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B21E2CC91F155A88008A731F /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B21E2CD01F155A88008A731F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B21E2CD11F155A88008A731F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B21E2CD41F155A88008A731F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B21E2CD51F155A88008A731F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B21E2CD71F155A88008A731F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8DH3HFV62B;
+				INFOPLIST_FILE = TestMessenger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuliashakhavnina.TestMessenger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B21E2CD81F155A88008A731F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8DH3HFV62B;
+				INFOPLIST_FILE = TestMessenger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuliashakhavnina.TestMessenger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B21E2CB71F155A88008A731F /* Build configuration list for PBXProject "TestMessenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B21E2CD41F155A88008A731F /* Debug */,
+				B21E2CD51F155A88008A731F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B21E2CD61F155A88008A731F /* Build configuration list for PBXNativeTarget "TestMessenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B21E2CD71F155A88008A731F /* Debug */,
+				B21E2CD81F155A88008A731F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B21E2CE11F155C0C008A731F /* TestMessenger.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B21E2CE21F155C0C008A731F /* TestMessenger.xcdatamodel */,
+			);
+			currentVersion = B21E2CE21F155C0C008A731F /* TestMessenger.xcdatamodel */;
+			path = TestMessenger.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B21E2CB41F155A88008A731F /* Project object */;
+}
