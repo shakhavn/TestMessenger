@@ -78,6 +78,7 @@
 		B2EDDB341F18B4FE00264401 /* TMSBotUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMSBotUser.h; sourceTree = "<group>"; };
 		B2EDDB351F18B4FE00264401 /* TMSBotUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMSBotUser.m; sourceTree = "<group>"; };
 		B2EDDB5A1F1A1BE600264401 /* TMSMessageCellSubtitlable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMSMessageCellSubtitlable.h; sourceTree = "<group>"; };
+		B2FA2FB91F1CE3D00046B47A /* TMSDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMSDefinitions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +229,7 @@
 				B2EDDB271F18AF0C00264401 /* Conversation+CoreDataClass.m */,
 				B2EDDB281F18AF0C00264401 /* Conversation+CoreDataProperties.h */,
 				B2EDDB291F18AF0C00264401 /* Conversation+CoreDataProperties.m */,
+				B2FA2FB91F1CE3D00046B47A /* TMSDefinitions.h */,
 			);
 			path = Model;
 			sourceTree = "<group>";

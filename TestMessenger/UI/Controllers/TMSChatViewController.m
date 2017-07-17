@@ -8,6 +8,7 @@
 
 #import "TMSChatViewController.h"
 #import "Message+CoreDataProperties.h"
+#import "TMSDefinitions.h"
 #import "TMSTextMessageTableViewCell.h"
 #import "TMSImageMessageTableViewCell.h"
 #import "TMSLocationMessageTableViewCell.h"
